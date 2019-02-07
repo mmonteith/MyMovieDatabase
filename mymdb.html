@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<!-- 
+	Homework #10 
+	Michelle Monteith
+	CSC 337 Fall 2018
+	
+	A My Movie Database that lets users look up either all the movies an actor has been in
+    or all the movies the actor has been in with Kevin Bacon.
+-->
+
+<html>
+	<head>
+		<title>MyMDb</title>
+		<link rel="stylesheet" href="mymdb.css" type="text/css"/>
+        <link rel="icon" type="image/png" href="http://allisonobourn.com/337/images/kevinbacon/favicon.png">
+		<script src="mymdb.js" type="text/javascript"></script> 
+		<meta charset="utf-8"/>
+	</head>
+	<body>
+        <div id="main">
+            <div class="hf">
+                <img src="http://allisonobourn.com/337/images/kevinbacon/mymdb.png" alt="MyMDB"/>
+                My Movie Database
+            </div>
+
+            <h1 id="title">The One Degree of Kevin Bacon</h1>
+            <div id="content">
+                <p id="subtitle"> Type in an actor's name to see if they were ever in a movie with Kevin Bacon!</p>
+                <img src="http://allisonobourn.com/337/images/kevinbacon/kevin_bacon.jpg" alt="Kevin Bacon" id="kevin"/>
+                <table id="table"></table>
+            </div>
+
+            <div id="input">
+                <div class="input">
+                    <p class="head">All Movies </p>
+                    <input type="text" id="firstAll" value="first name">
+                    <input type="text" id="lastAll" value="last name">
+                    <button id="allMovies"> go! </button>
+                </div>
+                <div class="input">
+                    <p class="head">Movies with Kevin Bacon</p>
+                    <input type="text" id="firstBacon" value="first name">
+                    <input type="text" id="lastBacon" value="last name">
+                    <button id="withKevin"> go! </button>
+                </div>
+            </div>
+
+            <div class="hf">
+                <img src="http://allisonobourn.com/337/fall18/homework/1/w3c-html.png" alt="HTML5 Validated"/>
+                <img src="http://allisonobourn.com/337/fall18/homework/1/w3c-css.png" alt="CSS Validated"/>
+            </div>
+        </div>
+	</body>
+</html>

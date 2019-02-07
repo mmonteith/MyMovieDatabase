@@ -1,0 +1,68 @@
+/*	
+	Homework #10
+    Michelle Monteith
+    CSC 337 Fall 2018
+
+    CSS Styling sheet from mymdb
+*/
+
+body {
+    background-color: #DAD9D4;
+    font-family: Verdana, san-serif;
+}
+
+#content {
+    text-align: center;
+}
+
+#content, #input, .input {
+    margin: 10px;
+}
+
+.head {
+    text-align: left;
+}
+
+h1 {
+    text-align: center;
+}
+
+.hf {
+    background-image: url("http://allisonobourn.com/337/images/kevinbacon/banner-background.png");
+    background-repeat: repeat-x;
+    color: white;
+    float: left;
+}
+
+.hf, .input {
+    padding: 10px;
+}
+
+#input {
+    align-self: center;
+}
+
+.input {
+    border-width: 1px;
+    border-color: #DAD9D4;
+    border-style: solid;
+}
+
+#main {
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    width: 90%;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2
+}
+
+table {
+    font-size: 12pt;
+    margin-left: auto;
+    margin-right: auto;
+}
